@@ -1,0 +1,98 @@
+body {
+  background-color: #f8f8f8 !important; }
+  body .container-fluid .onepage {
+    margin-left: 40px;
+    background-color: #f8f8f8 !important; }
+    body .container-fluid .onepage .markaz {
+      margin-top: 50px; }
+      body .container-fluid .onepage .markaz .nav .nav-item:before {
+        content: "";
+        max-width: 10px !important;
+        max-height: 10px !important;
+        border-radius: 50%;
+        background-color: #0a7f2e; }
+      body .container-fluid .onepage .markaz .nav .nav-item .nav-link {
+        color: black; }
+        body .container-fluid .onepage .markaz .nav .nav-item .nav-link.active {
+          color: #0a7f2e;
+          transform: translateX(15px); }
+      body .container-fluid .onepage .markaz .til {
+        margin-top: 169px;
+        font-family: "Fira Code Medium";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        margin-bottom: 10px; }
+      body .container-fluid .onepage .markaz .text_h3 {
+        margin-top: 40px;
+        font-family: "Fira Code Medium";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; }
+    body .container-fluid .onepage .text_h4 {
+      font-family: "Fira Code Medium";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #666666; }
+    body .container-fluid .onepage .a1 {
+      margin-top: 15px;
+      height: 40px;
+      width: 40px;
+      left: 135px;
+      top: 990px;
+      border-radius: 0px;
+      background-color: #0a7f2e;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    body .container-fluid .onepage .a2 {
+      height: 40px;
+      margin-top: 15px;
+      width: 40px;
+      left: 135px;
+      top: 990px;
+      border-radius: 0px;
+      background-color: #828282;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15px; }
+    body .container-fluid .onepage .a3 {
+      height: 40px;
+      width: 40px;
+      margin-top: 15px;
+      left: 135px;
+      top: 990px;
+      border-radius: 0px;
+      background-color: #3e3e3e;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15px; }
+    body .container-fluid .onepage .img12 {
+      margin-top: 46px;
+      margin-left: 5px; }
+    body .container-fluid .onepage .sabir label {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 14px; }
+    body .container-fluid .onepage .sabir input {
+      height: 6px;
+      width: 149px;
+      border-radius: 6px;
+      background-color: grey !important;
+      margin-top: 15px; }
+    body .container-fluid .onepage .card {
+      background-color: #f8f8f8 !important; }
+
+/*# sourceMappingURL=main3.css.map */

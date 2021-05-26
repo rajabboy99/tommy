@@ -1,0 +1,299 @@
+.text3 {
+  color: black;
+  font-size: 14px;
+  transform: translateX(-50px); }
+
+.text {
+  color: black;
+  font-size: 14px;
+  transform: translateX(-97px); }
+
+.text1 {
+  color: black !important; }
+
+.text2 {
+  color: #1c7430;
+  font-size: 14px;
+  transform: translateX(-76px); }
+
+.PLAY {
+  transform: translateX(-119px); }
+
+.search {
+  width: 24px;
+  height: 24px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-image: url("../all/icons/search.svg");
+  background-color: black; }
+
+.nav {
+  align-items: center; }
+
+.knopka1 {
+  border: 2px solid black; }
+
+#tablar {
+  display: flex; }
+  #tablar .tab-content {
+    width: 100%;
+    padding: 0;
+    margin: 0 !important; }
+  #tablar .navsa .nav-item {
+    position: relative; }
+    #tablar .navsa .nav-item .nav-link {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      background-color: #cccccc;
+      padding: 0;
+      margin-left: 60px;
+      margin-bottom: 20px;
+      margin-top: 50px; }
+      #tablar .navsa .nav-item .nav-link::before {
+        content: "";
+        position: absolute;
+        right: 4px;
+        height: 70px !important;
+        width: 3px !important;
+        background-color: grey;
+        top: 60px; }
+      #tablar .navsa .nav-item .nav-link.active {
+        background-color: #0a7f2e; }
+        #tablar .navsa .nav-item .nav-link.active::before {
+          background-color: #0a7f2e; }
+
+.sass::before {
+  content: "";
+  position: absolute;
+  display: none; }
+
+.bosh h3 {
+  position: absolute;
+  z-index: 2;
+  transform: rotate(-90deg);
+  font-family: "Apple Color Emoji";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 69px;
+  letter-spacing: 0em;
+  color: #dddddd;
+  top: 105px;
+  left: -60px; }
+
+.liner2 {
+  height: 100px;
+  width: 4px;
+  background-color: #dddddd;
+  position: absolute;
+  bottom: -366px;
+  left: 61px; }
+
+.col-3 {
+  transition: all 0.5s linear; }
+  .col-3:hover .strelka {
+    display: flex; }
+  .col-3:hover {
+    border: 2px dashed #0a7f2e;
+    transform: translate(-10px, -10px);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
+  .col-3 .card-body {
+    position: relative; }
+  .col-3 .card {
+    border: 0; }
+  .col-3 .img2 {
+    margin-left: 138px; }
+  .col-3 h2 {
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    margin-top: 30px; }
+
+.strelka {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 0px rgba(10, 127, 46, 0.2);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  transition: all 2s linear; }
+
+.text1234 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  color: #0a7f2e; }
+
+.liner44 {
+  height: 29.450057983398438px;
+  background-color: #0a7f2e;
+  width: 3px !important;
+  margin-top: 10px;
+  margin-right: 5px; }
+
+.liner55 {
+  height: 29.450057983398438px;
+  width: 3px;
+  background-color: #cccccc;
+  margin-right: 15px; }
+
+.tepa {
+  margin-top: 80px;
+  margin-bottom: 40px; }
+
+.knopka12 {
+  height: 70px;
+  width: 210px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  margin-left: 480px;
+  margin-top: 101px; }
+
+.navchala .navchala_1 .navchala_2 {
+  color: black; }
+  .navchala .navchala_1 .navchala_2.active {
+    border-bottom: 3px inset green;
+    animation: sass 7s ease-in-out infinite; }
+@keyframes sass {
+  30% {
+    transform: scale(1.2) translateY(-40px); }
+  50% {
+    transform: rotateZ(-340deg); }
+  60% {
+    transform: translateX(-400px); }
+  100% {
+    transform: scale(1); } }
+.col-6 {
+  position: relative; }
+
+.text66 {
+  font-family: "Apple Color Emoji";
+  font-size: 220px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 300px;
+  letter-spacing: 0em;
+  position: absolute;
+  top: -200px;
+  left: -400px;
+  z-index: 9;
+  color: rgba(247, 247, 247, 0.5); }
+
+.img1 {
+  position: relative;
+  z-index: 99; }
+
+.text_h2 {
+  color: #0a7f2e;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px; }
+
+.text_p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666; }
+
+.cardcha {
+  padding: 10px;
+  position: relative;
+  z-index: 99999;
+  transform: translate(0, -100px); }
+  .cardcha p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; }
+  .cardcha button {
+    height: 43px;
+    width: 157px;
+    left: 1118px;
+    top: 778px;
+    border-radius: 0px;
+    margin-left: 350px; }
+
+.pos {
+  height: 176px;
+  width: 439px;
+  left: 509px;
+  top: 557px;
+  box-shadow: 2px 2px 10px green;
+  position: absolute;
+  background-color: #cccccc;
+  z-index: 99;
+  animation: anim3 4s linear infinite; }
+@keyframes anim3 {
+  0% {
+    z-index: 9; }
+  20% {
+    z-index: 99; }
+  60% {
+    z-index: 999999; }
+  100% {
+    z-index: 1; } }
+.knoooo {
+  height: 46px;
+  width: 153px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin-top: 74px; }
+
+.but {
+  height: 30px;
+  width: 30px;
+  background: #0a7f2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  font-size: 12px;
+  box-shadow: 0px 4px 4px 0px rgba(10, 127, 46, 0.25);
+  color: white;
+  margin-top: 100px; }
+  .but:first-child {
+    margin-left: 30px; }
+
+.but1 {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  box-shadow: 0px 4px 4px 0px rgba(121, 121, 121, 0.25);
+  color: black;
+  margin-top: 100px; }
+
+.tepa1 {
+  margin-top: 105px; }
+
+.text_h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  color: #0a7f2e; }
+
+.text_pp {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  color: #999988; }
+
+/*# sourceMappingURL=main2.css.map */

@@ -1,0 +1,142 @@
+body {
+  background-color: rgba(248, 248, 248, 1) !important;
+
+  .container-fluid {
+    .onepage {
+      margin-left: 40px;
+      background-color: rgba(248, 248, 248, 1) !important;
+
+      .markaz {
+        margin-top: 50px;
+
+        .nav {
+          .nav-item {
+            &:before {
+              content: "";
+              max-width: 10px !important;
+              max-height: 10px !important;
+              border-radius: 50%;
+              background-color: #0a7f2e;
+            }
+
+            .nav-link {
+              color: black;
+
+              &.active {
+                color: #0a7f2e;
+                transform: translateX(15px);
+              }
+            }
+          }
+        }
+
+        .til {
+          margin-top: 169px;
+          font-family: "Fira Code Medium";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 26px;
+          margin-bottom: 10px;
+        }
+
+        .text_h3 {
+          margin-top: 40px;
+          font-family: "Fira Code Medium";
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 26px;
+
+        }
+      }
+
+      .text_h4 {
+        font-family: "Fira Code Medium";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(102, 102, 102, 1);
+      }
+
+      .a1 {
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        left: 135px;
+        top: 990px;
+        border-radius: 0px;
+        background-color: rgba(10, 127, 46, 1);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .a2 {
+        height: 40px;
+        margin-top: 15px;
+
+        width: 40px;
+        left: 135px;
+        top: 990px;
+        border-radius: 0px;
+        background-color: rgba(130, 130, 130, 1);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+      }
+
+      .a3 {
+        height: 40px;
+        width: 40px;
+        margin-top: 15px;
+
+        left: 135px;
+        top: 990px;
+        border-radius: 0px;
+        background-color: rgba(62, 62, 62, 1);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+      }
+
+      .img12 {
+        //margin-top: 30px;
+        margin-top: 46px;
+        margin-left: 5px;
+      }
+
+
+      .sabir {
+        label {
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 14px;
+
+        }
+
+        input {
+          height: 6px;
+          width: 149px;
+          border-radius: 6px;
+          background-color: grey !important;
+          margin-top: 15px;
+
+        }
+      }
+
+      .card {
+        background-color: rgba(248, 248, 248, 1) !important;
+      }
+    }
+  }
+}
